@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+.playwright-mcp/
+
+# Authentication and environment files
+.env
+.env.*
+!.env.example
+.auth/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript and editor output
+*.tsbuildinfo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
